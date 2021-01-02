@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
-import matplotlib.transforms as mtransforms
 import numpy as np
 
+
+fig = plt.figure()
+ax = fig.add_subplot(111, polar=True)
+ax.grid(False)
 x = int(input("Enter the number of natural numbers:"))
 N = np.arange(0, x)
 
@@ -11,6 +14,7 @@ if x<10:
         plt.text(number, number, '%d, %d' % (int(number), int(number)))
 else:
     for number in N:
-        plt.polar(number, number, 'ro')
+        plt.scatter(number, number, 0.5, 'red')
+        plt.plot(number, number)
 
 plt.show()
