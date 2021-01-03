@@ -1,10 +1,13 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 fig = plt.figure()
+title = 'Spirals'
+fig.set_label(title)
+fig.canvas.manager.set_window_title(title)
 ax = fig.add_subplot(111, polar=True)
 ax.grid(False)
+
 x = int(input("Enter the number of natural numbers:"))
 N = np.arange(0, x)
 
