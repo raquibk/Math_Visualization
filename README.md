@@ -1,8 +1,8 @@
 # Visualizing Numbers
 
 
-** This repository is made for Math Appreciation through Data Visualization in Python. All codefiles are coded by me in Python, and visualized through the
-wonderfully complex MatPlotLib. **
+**This repository is made for Math Appreciation through Data Visualization in Python. All codefiles are coded by me in Python, and visualized through the
+wonderfully complex MatPlotLib.**
 
 My Inspirations for visualizing numbers are the youtubers 3Blue1Brown (Do check him out; he makes absolutely wonderful animations using MANIM for Python), 
 and NumberPhile (Excellent explanations for seemingly complicated topics) .
