@@ -60,7 +60,7 @@ Simplify this, and we get the famous approximation for pi:
 <img src="https://github.com/raquibk/Math_Visualization/blob/master/Nformula2.png" alt="pi"/>
 </p>
 
-This is one of many example of how pi hides in whole numbers. The same spiral pattern can be repeated for prime numbers, and pi can be obtained again.
+This is one of many examples of how pi hides in whole numbers. The same spiral pattern can be repeated for prime numbers, and pi can be obtained again.
 
 Running instructions for the code: (MatPlotLib library required) Simple run the code, type in the number of natural numbers you want to be graphed (N<10,000) and hit enter to get the graphical representation.
 
