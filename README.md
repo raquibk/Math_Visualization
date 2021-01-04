@@ -16,9 +16,14 @@ Each file in this repository is a small piece of code meant to visualize some ma
 explain the reason to why this happens.
 
 Files included and their READMEs:
-###### polar.py
-###### fibonacci.py
+#### polar.py
+#### fibonacci.py
 
 ### Natural Number Spirals
 #### Take a set of consecutive natural numbers, say 0,1,2,3. Now, just for fun, map each number as (number +number*i) on a polar graph. Why do we get spirals?
-![Image of Spiral created when we take the first 10,000 numbers](https://github.com/raquibk/Math_Visualization/blob/master/N10000.png)
+<p align="center">
+[Image of Spiral created when we take the first 10,000 numbers](https://github.com/raquibk/Math_Visualization/blob/master/N10000.png)
+</p>
+ #### Spirals obtained for the first 10000 natural numbers
+
+
