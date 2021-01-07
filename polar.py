@@ -36,6 +36,20 @@ def three():
 
     plt.show()
 
+def fortyfour():
+    fig = plt.figure()
+    title = 'Spirals'
+    fig.set_label(title)
+    fig.canvas.manager.set_window_title(title)
+    ax = fig.add_subplot(111, polar=True)
+    ax.grid(True)
+
+    plt.polar(44, 44, 'ro')
+    plt.text(44, 44, '%d, %d' % (int(44), int(44)))
+
+    plt.show()
+
+
 def seventen():
     fig = plt.figure()
     title = 'Spirals'
@@ -49,4 +63,4 @@ def seventen():
 
     plt.show()
 
-seventen()
+fortyfour()
