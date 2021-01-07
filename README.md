@@ -16,7 +16,7 @@ Each file in this repository is a small piece of code meant to visualize some ma
 explain the reason to why this happens.
 
 Files included and their READMEs:
-#### polar.py
+#### polaroop.py (and supplementary images/file)
 #### fibonacci.py (Coming Soon)
 
 ### Approximation of pi using polar graphs
