@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-x = int(input("Enter the number of natural numbers:"))
+x = int(input("Enter the number of natural numbers you want plotted:"))
 
 class Spirals:
     def __init__(self, number):
@@ -41,6 +41,5 @@ class Spirals:
 
         plt.show()
 
-number = Spirals(44) 
+number = Spirals(x) 
 number.plot()
-number.plotnum()
