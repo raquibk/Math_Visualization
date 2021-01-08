@@ -16,8 +16,8 @@ Each file in this repository is a small piece of code meant to visualize some ma
 explain the reason to why this happens.
 
 Files included and their READMEs:
-1. polaroop.py (and supplementary images/file)
-2. fibonacci.py (Coming Soon)
+__1. polaroop.py (and supplementary images/file)
+__2. fibonacci.py (Coming Soon)
 
 ### Approximation of pi using polar graphs
 #### Take a set of consecutive natural numbers, say 0,1,2,3. Now, just for fun, map each number as (number +number*i) on a polar graph. Why do we get spirals? And further,
