@@ -12,12 +12,11 @@ a question almost always requires mapping the problem geometrically, to gain a d
 are so visually pleasing to the eye, that it is almost impossible to not fall in love with numbers after seeing them.
 
 
-Each file in this repository is a small piece of code meant to visualize some mathematical pattern or question. In each files README, I will try my very best to
+**polaroop.py** in this repository meant to visualize some mathematical patterns or questiona. In each files README, I will try my very best to
 explain the reason to why this happens.
 
-Files included and their READMEs:
-polaroop.py (and supplementary images/file)
-fibonacci.py (Coming Soon)
+Main File included:
+1. polaroop.py (fibonacci sequence will be updated to do more shortly)
 
 ### Approximation of pi using polar graphs
 #### Take a set of consecutive natural numbers, say 0,1,2,3. Now, just for fun, map each number as (number +number*i) on a polar graph. Why do we get spirals? And further,
