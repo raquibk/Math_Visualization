@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
+import math
 import numpy as np
-
-
-x = int(input("Enter the number of natural numbers you want plotted:"))
 
 class Spirals:
     def __init__(self, number):
@@ -41,5 +39,36 @@ class Spirals:
 
         plt.show()
 
-number = Spirals(x) 
-number.plot()
+def fibonacci(n):
+    fibo = [0, 1]
+    global gratio
+    gratio = []
+    for i in range(2,n):
+        fibo.append(fibo[i-2]+fibo[i-1])
+
+
+    for n in range(1, len(fibo)):
+        try:
+            gratio.append(fibo[n]/fibo[n-1])
+        except ZeroDivisionError:
+            gratio.append(0)
+
+
+
+    plt.plot(gratio)
+    plt.show()
+
+if __name__ == "__main__":
+    loop = False
+    while loop is False:
+        choice = int(input("Press 1 to see a variation of Ulam Spirals, and 2 to see the Golden Ratio tend to it's value: "))
+
+        if choice ==1:
+            loop = True
+            x = int(input("Enter the number of natural numbers you want plotted:"))
+            spiral = Spirals(x)
+            spiral.plot()
+        elif choice == 2:
+            loop = True
+            n = int(input('How many Fibonacci Numbers?: '))
+            fibonacci(n)
